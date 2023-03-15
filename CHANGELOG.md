@@ -10,7 +10,7 @@
   - Adds support for handling certificate with certificateId (See [PR #4219](https://github.com/aws-amplify/aws-sdk-ios/pull/4219))
   - Eliminates Dispatch Semaphore in MQTT internal code [PR #4211](https://github.com/aws-amplify/aws-sdk-ios/pull/4211)
 
-## 2.27.12
+## 9.9.9
 
 ### Bug Fixes
 
