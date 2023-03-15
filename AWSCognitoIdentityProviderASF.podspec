@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'AWSCognitoIdentityProviderASF'
-  s.version      = '2.27.13'
+  s.version      = '2.27.12'
   s.summary      = 'Amazon Cognito Identity Provider Advanced Security Features library (Beta)'
 
   s.description  = 'Amazon Cognito Identity Provider ASF provides the information necessary to support adaptive authentication'
@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
   s.license      = 'Apache License, Version 2.0'
   s.author       = { 'Amazon Web Services' => 'amazonwebservices' }
   s.platform     = :ios, '9.0'
-  s.source       = { :git => '/Users/wombat/.aws-amplify/aws-sdk-ios/aws-sdk-ios-podspecs.git',
+  s.source       = { :git => 'https://github.com/TimestampWombat/aws-sdk-ios-path-style.git',
                      :tag => s.version}
   s.requires_arc = true
-  s.dependency 'AWSCore', '2.27.13'
+  s.dependency 'AWSCore', '2.27.12'
   s.public_header_files = 'AWSCognitoIdentityProviderASF/*.h'
   s.source_files = 'AWSCognitoIdentityProviderASF/**/*.{h,m,c}'
   s.private_header_files = 'AWSCognitoIdentityProviderASF/Internal/*.h'
